@@ -11,9 +11,9 @@ Angular is the JavaScript framework that we'll explore as a class. There are man
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
-- Explain some of the benefits of using Angular and begin to describe the problems Angular aims to solve.
-- Initialize Angular in an HTML view, and begin to use expressions and templates to impact the DOM.
-- Describe the benefits of organizing the code into controllers and write the connection between the View & Controller using `this`.
+- Explain the benefits of using Angular and describe the problems Angular aims to solve.
+- Initialize Angular in an HTML view, and use expressions and templates to impact the DOM.
+- Organize the code into controllers and connect the View & Controller using `this`.
 - Implement 2-way data binding.
 
 ### Where should we be now?
