@@ -202,9 +202,54 @@ Within our controller `div` tag, let's create an input field for our name. We ca
 ## Setting up an Angular app
 ### Is it plugged in?
 
+Let's use [this exercise](https://github.com/sf-wdi-31/intro_angular_challenges) to practice making sure that we know how to set up an angular application.
 
-## Exercises
-The best way to learn is to dive right in!
+#### Key steps
+* Is angular loaded through a package manager or CDN?
+* Has the html document been informed that it's supposed to act like an `ng-app`?
+* If necessary, has the controller been defined?
 
-1. [tunely-angular sprint 1](https://github.com/SF-WDI-LABS/tunely-angular) - [solution branch sprint 1](https://github.com/SF-WDI-LABS/tunely-angular/tree/solutions_sprint_1)
+If we want a specific `ng-app`, we need to define it in JavaScript with this kind of declaration:
+
+```javascript
+angular
+.module('appName', []);
+```
+
+Our `ng-app` directive in the html needs to match that name:
+
+```html
+<html lang="en" ng-app="appName">
+```
+
+If we're using a controller, we need to define it in javascript along with our app:
+
+```javascript
+angular
+  .module('tunely', [])
+  .controller('PageController', PageController);
+
+  function PageController () {
+  var vm = this;
+  vm.newPerson = {};
+
+  vm.newPerson = {
+      name: 'Cory',
+      occupation: 'WDI instructor'
+  };
+}
+```
+
+We'd then declare its use in the proper place in our html:
+
+```html
+<div class="container" ng-controller="PageController as pageCtrl">
+  <!--html inside of here can display and adjust the information from the PageController-->
+</div>
+```
+
+## More practice
+Let's dive into setting up a larger application!
+
+1. [tunely-angular sprint 1](https://github.com/sf-wdi-31/tunely-angular) - [solution branch sprint 1](https://github.com/sf-wdi-31/tunely-angular/tree/solutions_sprint_1)
     * Begin the journey toward building an Angular front end for the app that we've already created.
