@@ -199,6 +199,9 @@ Within our controller `div` tag, let's create an input field for our name. We ca
   </div>
 ```
 
+## Setting up an Angular app
+### Is it plugged in?
+
 
 ## Exercises
 The best way to learn is to dive right in!
