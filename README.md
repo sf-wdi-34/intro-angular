@@ -200,9 +200,6 @@ Within our controller `div` tag, let's create an input field for our name. We ca
 ```
 
 ## Setting up an Angular app
-### Is it plugged in?
-
-Let's use [this exercise](https://github.com/sf-wdi-31/intro_angular_challenges) to practice making sure that we know how to set up an angular application.
 
 #### Key steps
 * Is angular loaded through a package manager or CDN?
@@ -248,8 +245,6 @@ We'd then declare its use in the proper place in our html:
 </div>
 ```
 
-## More practice
-Let's dive into setting up a larger application!
-
-1. [tunely-angular sprint 1](https://github.com/sf-wdi-31/tunely-angular) - [solution branch sprint 1](https://github.com/sf-wdi-31/tunely-angular/tree/solutions_sprint_1)
-    * Begin the journey toward building an Angular front end for the app that we've already created.
+## Practice
+* [Intro Angular Challenges](#FIXME) 	<!-- https://github.com/SF-WDI-LABS/intro_angular_challenges -->
+* [Tunely Angular, Sprint#1](#FIXME) 	<!-- https://github.com/SF-WDI-LABS/tunely-angular -->
