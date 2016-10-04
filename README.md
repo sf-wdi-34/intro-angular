@@ -246,5 +246,8 @@ We'd then declare its use in the proper place in our html:
 ```
 
 ## Practice
-* [Intro Angular Challenges](#FIXME) 	<!-- https://github.com/SF-WDI-LABS/intro_angular_challenges -->
-* [Tunely Angular, Sprint#1](#FIXME) 	<!-- https://github.com/SF-WDI-LABS/tunely-angular -->
+* [Intro Angular Challenges](#FIXME)
+<!-- https://github.com/SF-WDI-LABS/intro_angular_challenges -->
+
+* [Tunely Angular, Sprint#1](#FIXME)
+<!-- https://github.com/SF-WDI-LABS/tunely-angular -->
