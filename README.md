@@ -29,6 +29,8 @@ Angular is the JavaScript framework that we'll explore as a class. There are man
 
 [Angular Guide Introduction](https://docs.angularjs.org/guide/introduction)
 
+Stuff that has been said about Angular:
+
 * A "framework for dynamic web apps"
 * "Lets you use HTML as your template language"
 * Will "extend HTML's syntax"
@@ -159,7 +161,7 @@ angular
   .controller('AlbumsIndexController', AlbumsIndexController);
 
   function AlbumsIndexController() {
-	  var vm = this;
+    var vm = this;
     vm.thing = {};
     vm.func = function(){};
     // more logic here
@@ -246,8 +248,8 @@ We'd then declare its use in the proper place in our html:
 ```
 
 ## Practice
-* [Intro Angular Challenges](#FIXME)
+* [Intro Angular Challenges](https://github.com/sf-wdi-33/intro_angular_challenges)
 <!-- https://github.com/SF-WDI-LABS/intro_angular_challenges -->
 
-* [Tunely Angular, Sprint#1](#FIXME)
-<!-- https://github.com/SF-WDI-LABS/tunely-angular -->
+* [Tunely Angular, Sprint#1](https://github.com/sf-wdi-33/tunely-angular)
+<!-- https://github.com/sf-wdi-33/tunely-angular -->
