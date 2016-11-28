@@ -104,7 +104,7 @@ It turns out you can do the same thing using inline click-listeners (long consid
 
 Note that your javscript expression is literally a string here.
 ```js
-"alert('Holy moly!')" // Definitely not an alert()!
+"alert('Holy moly!')"
 ```
 
 What's happening is your string is being evaluated, using `eval`.
