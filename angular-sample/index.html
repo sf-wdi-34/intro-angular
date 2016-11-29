@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html ng-app="noodleApp">
+    <head>
+        <title>Playing with Angular</title>
+        <script src="angular.min.js"></script>
+        <script src="Noodle.js"></script>
+    </head>
+    <body>
+        <div ng-controller="NoodleController as noodleCtrl">
+            <h1>{{noodleCtrl.flavor}}</h1>
+            <ul>
+                <li ng-repeat="noodle in noodleCtrl.noodles">
+                    {{noodle.name}} with {{noodle.sauce}}
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
