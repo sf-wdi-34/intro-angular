@@ -248,8 +248,5 @@ We'd then declare its use in the proper place in our html:
 ```
 
 ## Practice
-* [Intro Angular Challenges](https://github.com/sf-wdi-33/intro_angular_challenges)
-<!-- https://github.com/SF-WDI-LABS/intro_angular_challenges -->
 
-* [Tunely Angular, Sprint#1](https://github.com/sf-wdi-33/tunely-angular)
-<!-- https://github.com/sf-wdi-33/tunely-angular -->
+* [Tunely Angular, Sprint#1](https://github.com/sf-wdi-34/tunely-angular)
